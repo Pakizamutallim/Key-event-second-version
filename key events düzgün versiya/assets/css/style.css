@@ -1,0 +1,80 @@
+
+body {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 95vh;
+    width: calc(100%*9/12); 
+}
+
+.box {
+    width: 80%;
+    height: 100vh;
+    border: solid 2px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.box .circle {
+     border: solid 3px red;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    position: absolute;  
+    top: 50%;
+    left: 50%;
+
+    /* position:absolute;
+    left:200px;
+    top:200px;
+    width:100px;
+    height:100px;
+    background:brown; */
+
+}
+
+.keyboard {
+    /* width: 10%; */
+    /* height: 30vh; */
+    text-align: center;
+    border: solid 1px darkblue; 
+    margin-top: 3%; 
+    flex-wrap: nowrap;
+}
+
+.keyboard button {
+    border: solid 1px darkblue;
+    width: 20%;
+    margin: 2%;
+    text-align: center;
+    padding: 3%; 
+    cursor: pointer;
+} 
+.keyboard .center {
+    border-radius: 50px;
+    text-align: center;
+    font-size:10px;
+}
+
+
+.inp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2%;
+    /* width: calc(100%*3/12) */
+}
+
+.inp input {
+    margin-top: 4%;
+}
+
